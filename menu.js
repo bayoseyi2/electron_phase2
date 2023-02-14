@@ -1,5 +1,7 @@
 const { Menu } = require('electron')
+
 const isMac = process.platform==="darwin"
+
 const customMenu = [
     {
         label: 'File',
